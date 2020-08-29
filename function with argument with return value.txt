@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int sum(int,int);
+int main()
+{
+    int number1,number2,c;
+    printf("enter two values");
+    scanf("%d%d",&number1,&number2);
+    c=sum(number1,number2);
+    printf("sum of the values:%d",c);
+    return 0;
+}
+
+int sum(int number1,int number2)
+{
+    int sum;
+    sum=number1+number2;
+    return sum;
+}
+

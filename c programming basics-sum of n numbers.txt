@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int limit,sum=0,i;
+    printf("enter a limit");
+    scanf("%d",&limit);
+    for(i=0;i<=limit;i++)
+    {
+        sum=sum+i;
+    }
+    printf("sum of all the numbers:%d",sum);
+}

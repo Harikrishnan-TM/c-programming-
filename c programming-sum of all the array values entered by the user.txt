@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a[1000],limit,i,sum=0;
+    printf("enter a limit");
+    scanf("%d",&limit);
+    printf("enter your values");
+    for(i=0;i<limit;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<limit;i++)
+    {
+        sum=sum+a[i];
+    }
+    
+    printf("sum of all the values:%d",sum);
+    return 0;
+    
+}
