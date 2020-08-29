@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int number1,number2,addition,subtraction,division,multiplication,option;
+    printf("enter two numbers");
+    scanf("%d%d",&number1,&number2);
+    printf("press 1 for additon,2 for subtraction,3 for division,4 for multiplication");
+    scanf("%d",&option);
+    if(option==1)
+    {
+        addition=number1+number2;
+        printf("addition:%d",addition);
+        }
+        else if(option==2)
+        {
+            subtraction=number1-number2;
+            printf("subtraction:%d",subtraction);
+        }
+        else if(option==3)
+        {
+            division=number1/number2;
+            printf("division:%d",division);
+        }
+        else if(option==4)
+        {
+            multiplication=number1*number2;
+            printf("multiplication:%d",multiplication);
+        }
+        else
+        {
+            printf("You have entered an invalid number");
+        }
+        
+        return 0;
+}

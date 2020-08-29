@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int choice;
+    printf("enter 1 for porotta,2 for appam,3 for biriyani,4 for tea");
+    scanf("%d",&choice);
+    switch(choice)
+    {
+        case 1:
+        printf("You have selected porotta");
+        break;
+        case 2:
+        printf("You have selected appam");
+        break;
+        case 3:
+        printf("You have selected biriyani");
+        break;
+        case 4:
+        printf("You have selected tea");
+        break;
+        default:
+        printf("You have entered an invalid number");
+        break;
+    }
+}
